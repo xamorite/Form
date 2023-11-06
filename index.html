@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(./asset/bg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav {
+            padding-block: 3%;
+            padding-inline: 8%;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        span {
+            margin-inline-end: 1vw;
+        }
+        
+        #search {
+            background-color: transparent;
+            color: white;
+          
+            padding: 4%;
+            border-color: white;
+        }
+        
+        ::placeholder {
+            color: white;
+            background-color: transparent;
+        }
+        .main{
+            width: 70vw;
+            margin-inline: auto;
+            background-image:url(./asset/bg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 70vh;
+            color:white
+        }
+        h1{
+            /* font-weight: 800; */
+            font-size: 3rem;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h2{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.5vw;
+          margin-top: 15vh;
+      }
+        h3{
+          
+            font-size: 2vw;
+        }
+        .pad{
+           
+            display: flex;
+            
+        }
+        .first{
+            padding: 2%;
+            width: 40vw;
+        }
+        .second{
+            width: 30vw;
+            background-color: transparent;
+            backdrop-filter: blur(10px);
+            height: 70vh;
+        }
+        i{
+            margin-inline-end: 1vw;
+        }
+        .line{
+            width: 90%;
+            background-color: transparent   ;
+            border-bottom: 3px solid white;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            margin-bottom: 5vh;
+        }
+        ::placeholder{
+            background-color: transparent;
+            color: white;
+        }
+        ul{
+            display: flex;
+            list-style-type: none ;
+            justify-content: space-between;
+           width: 80%;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        button{
+            color:white;
+            background-color: rgb(231, 53, 53);
+            text-decoration: none;
+            border: none;
+            padding: 1%;
+            width: 90%;
+            border-radius: .5rem;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <span>Home</span>
+            <span>About</span>
+            <span>Service</span>
+            <span>Contact</span>
+        </div>
+        <div class="input-group">
+            <input type="search" name="Search" id="search" placeholder="Search....                      🔍">
+        </div>
+    </nav>
+    <div class="main">
+        <div class="pad">
+            <div class="first">
+                <h1>Codehal</h1>
+                <center>
+                    <h1>Welcome !</h1>
+                    <h3>To Our Nem Website</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Rerum, esse.</p>
+                    <i class='fab fa-instagram '></i><i class='fab fa-facebook'></i><i class='fab fa-twitter'></i><i class='fab fa-github'></i>
+                </center>
+            </div>
+            <div class="second">
+                <center>
+
+                <h2>Sign in</h2>
+                <input type="email" class="line" placeholder="Email">
+                <input type="password" class="line" placeholder="Password">
+                <ul>
+                <li><input type="checkbox" name="check"><label for="check">Remember me</label> </li>
+                <li><a href="/">Forgot password</a></li>
+            </ul>
+                <button>Sign in</button>
+                <p>Don't have an account <b>Sign Up</b></p>
+            </center>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
